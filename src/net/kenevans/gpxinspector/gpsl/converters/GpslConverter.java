@@ -309,7 +309,7 @@ public class GpslConverter implements IGpxConverter
                 wptType = new WptType();
                 if(wptType == null) {
                     SWTUtils.errMsg("Line " + lineNum
-                        + ": Cannot create route waypoint:\n" + file.getName());
+                        + ": Cannot create waypoint:\n" + file.getName());
                     error = true;
                     break;
                 }
